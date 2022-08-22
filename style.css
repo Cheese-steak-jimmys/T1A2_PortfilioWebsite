@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #000000; 
+}
+
+#logo-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 33vw;
+    height: 33vw;
+    margin: 19vw auto;
+    /* margin-bottom: 90px; */
+    padding: 0rem;
+    color: rgb(0, 0, 0);
+    background: url('T1A2-img/dkd-logo.jpg') #b42222 55% 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#logo-image:hover {
+    box-shadow: 0px 0px 500px 120px #b42222;
+    transition: 0.7s;
+}
+
+nav {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content:space-around; */
+    /* padding: 2rem; */
+    
+}
+
+nav a {
+    display: flex;
+    justify-content: space-around;
+    font-family: Lato, sans-serif;
+    font-size: 4rem;
+    color: #6a6b6b;
+    text-decoration: none;
+    margin: 0 0.0rem;
+    padding: 3rem;
+
+}
+
+#Bio:hover {
+    color: rgb(173, 3, 3); 
+    /* transform: skew(-20deg); */
+    transform: translateX(100px);
+    opacity: 10% 50% 99%;
+    transition: 0.8s;
+}
+
+#projects:hover {
+    color: rgb(173, 3, 3); 
+    /* transform: skew(-20deg); */
+    transform: translateX(-100px);
+    opacity: 10% 50% 99%;
+    transition: 0.8s;
+}
+
+#blog:hover {
+    color: rgb(173, 3, 3); 
+    /* transform: skew(-20deg); */
+    transform: translateX(100px);
+    opacity: 10% 50% 99%;
+    transition: 0.7s;
+}
+
+#links:hover {
+    color: rgba(169, 8, 8, 0.717); 
+    /* transform: skew(-20deg); */
+    transform: translateX(-100px);
+    transition: 0.7s;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100vw; */
+    /* height: 55vw; */
+    background: rgb(173, 3, 3);
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 25px;
+    background: url("T1A2-img/shane-avery-dark-geo-plants.jpg") no-repeat center;
+    background-size: cover;
+    box-shadow: 0px 0px 200px 80px#6a6b6b;
+    opacity: 20%;
+}
+
+main:hover {
+    opacity: 80%;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-out;
+}
+
+main img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: index 2;
+    width: 25vw;
+    /* height: 35; */
+    border-radius:35% 35%;
+    box-shadow: 0px 0px 200px 90px #000000;
+    opacity: 20%;
+}
+
+main img:hover {
+    opacity: 98%;
+    transition: 2s;
+}
+
+h1, h5, p {
+    color: #6a6b6b;
+    font-family: Lato, sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 4.5rem;
+}
+p {
+    padding: 1rem;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* flex-shrink: 1; */
+    justify-content: space-around;
+    margin: 2px;
+    padding: 2rem;
+    padding-top: 0rem;
+}
+
+#lion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100vw; */
+    height: 90vw;
+    background: rgb(173, 3, 3);
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 20vw;
+    background: url("T1A2-img/kevin-mueller-lion-doorknocker.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 50% 50%;
+    box-shadow: 0px 0px 200px 90px #023835;
+    opacity: 80%;
+}
+
+
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 2vw;
+    /* position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    margin: 1vh;
+    text-align: center; */
+}
+
+footer a {
+    left: 1.5rem;
+    background-color: rgba(169, 8, 8, 0.717);
+    background-size: cover;
+    border-radius: 50%;
+    /* width: 45px; */
+    /* height: 45px; */
+}
+
+footer p {
+    color:#b42222
+}
+
+footer a:hover {
+    box-shadow: 0px 0px 50px 30px #023835;
+}
+
+@media screen and (min-width: 450px) {
+    body {
+        /* width: 100vw; */
+    }
+}
+    /* body { */
+        

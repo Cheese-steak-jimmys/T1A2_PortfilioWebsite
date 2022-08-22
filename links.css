@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #000000; 
+}
+
+header {
+    display: flex; 
+    justify-content: center;
+    /* align-items: center; */
+    padding: 5vw;
+}
+
+#logo {
+    height: 33vw;
+    border-radius: 50%;
+}
+
+#logo:hover {
+    box-shadow: 0px 0px 500px 50px #b42222;
+    transition: 0.7s;
+}
+
+nav {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content:space-around; */
+    /* padding: 2rem; */
+    
+}
+
+nav a {
+    display: flex;
+    justify-content: space-around;
+    font-family: Lato, sans-serif;
+    font-size: 4rem;
+    color: #6a6b6b;
+    text-decoration: none;
+    margin: 0 0.0rem;
+    padding: 3rem;
+}
+
+#Bio:hover {
+    color: rgb(173, 3, 3); 
+    /* transform: skew(-20deg); */
+    transform: translateX(100px);
+    opacity: 10% 50% 99%;
+    transition: 0.8s;
+}
+
+#projects:hover {
+    color: rgb(173, 3, 3); 
+    /* transform: skew(-20deg); */
+    transform: translateX(-100px);
+    opacity: 10% 50% 99%;
+    transition: 0.8s;
+}
+
+#blog:hover {
+    color: rgb(173, 3, 3); 
+    /* transform: skew(-20deg); */
+    transform: translateX(100px);
+    opacity: 10% 50% 99%;
+    transition: 0.7s;
+}
+
+#orange-flower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100vw; */
+    height: 60vw;
+    background: rgb(173, 3, 3);
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 20vw;
+    background: url("T1A2-img/marc-schulte-dark-orange\ flower.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 50% 10%;
+    box-shadow: 0px 0px 200px 10px #4e19e0d6;
+    opacity: 80%;
+}
+
+h2 {
+    color: #c96608;
+    font-family: Lato, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+main a {
+    display: flex;
+    justify-content: space-around;
+    font-family: Lato, sans-serif;
+    font-size: 4rem;
+    color: #6a6b6b;
+    text-decoration: none;
+    margin: 0 0.0rem;
+    padding: 3rem;
+}
+
+.github {
+    background: #b42222;
+}
+
+#twitter {
+    padding-left: 15vw;
+}
+
+#linkedin {
+    padding-left: 25vw;
+}
+
+#github {
+    padding-left: 35vw;
+}
+
+#discord {
+    padding-left: 25vw;
+}
+
+#email {
+    padding-left: 15vw;
+}
+/* h2 {
+    color: wheat;
+} */
