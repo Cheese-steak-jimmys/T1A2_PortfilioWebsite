@@ -15,8 +15,7 @@ body {
 header {
     display: flex; 
     justify-content: center;
-    /* align-items: center; */
-    padding: 5vw;
+    padding: 19vw;
 }
 
 #logo {
@@ -25,16 +24,8 @@ header {
 }
 
 #logo:hover {
-    box-shadow: 0px 0px 500px 50px #b42222;
+    box-shadow: 0px 0px 500px 80px #023835;
     transition: 0.7s;
-}
-
-nav {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content:space-around; */
-    /* padding: 2rem; */
-    
 }
 
 nav a {
@@ -72,64 +63,123 @@ nav a {
     transition: 0.7s;
 }
 
-#orange-flower {
+#rose {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 100vw; */
-    height: 60vw;
+    height: 80vw;
     background: rgb(173, 3, 3);
-    border-radius: 5px;
     padding: 2rem;
-    margin: 20vw;
-    background: url("T1A2-img/marc-schulte-dark-orange\ flower.jpg") no-repeat center;
+    margin: 26vw;
+    background: url("T1A2-img/luna-clicks-red-rose.jpg") no-repeat center;
     background-size: cover;
-    border-radius: 50% 10%;
-    box-shadow: 0px 0px 200px 10px #4e19e0d6;
+    border-radius: 00% 00% 500% 500%;
+    box-shadow: 0px 0px 200px 90px #023835;
     opacity: 80%;
 }
 
-h2 {
-    color: #c96608;
-    font-family: Lato, sans-serif;
-    font-size: 2rem;
-    text-align: center;
+section {
+    height: 20%;
+    display: inline-block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#white-flower {
+    /* display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; */
+    width: 60%;
+    height: 40%;
+    background: rgb(173, 3, 3);
+    /* border-radius: 5px; */
+    padding: 19vw;
+    /* margin: 2.5rem; */
+    margin-bottom: 20%;
+    margin-left: 40%;
+    background: url("T1A2-img/majid-rangraz-white-flower.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 50% 0% 0% 0%;
+    box-shadow: 0px 0px 200px 10px #4e19e0d6;
 }
 
+#blue-flower {
+    /* display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; */
+    width: 60%;
+    /* height: 70vw; */
+    background: rgb(173, 3, 3);
+    /* border-radius: 5px; */
+    padding: 15vw;
+    margin-top: 5%;
+    margin-right: 40%;
+    background: url("T1A2-img/vladimir-malyutin-dark-blue-flower.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 0% 0% 50% 0%;
+    box-shadow: 0px 0px 200px 80px #023835;;
+    opacity: 65%;
+}
+
+h2 {
+    color: #920000;
+    font-family: Lato, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    box-shadow: 0px 30px 30px 0px#023835;
+}
+
+main {
+    padding-top: 15%;
+    padding-bottom: 25%;
+    font: color white;
+    
+}
 main a {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     font-family: Lato, sans-serif;
     font-size: 4rem;
     color: #6a6b6b;
     text-decoration: none;
-    margin: 0 0.0rem;
-    padding: 3rem;
+    /* margin: em; */
+    margin: 10vw;
 }
-
-.github {
-    background: #b42222;
-}
+/* 
+#github {
+    background: #b42222 no-repeat;
+    background-size: content;
+    border-radius: 50%;
+} */
 
 #twitter {
     padding-left: 15vw;
 }
 
 #linkedin {
-    padding-left: 25vw;
+    padding-left: 45vw;
 }
 
 #github {
-    padding-left: 35vw;
+    background: #b42222 no-repeat;
+    
+    border-radius: 50%;
+    margin-left: 75vw;
 }
 
 #discord {
-    padding-left: 25vw;
+    padding-left: 45vw;
 }
 
 #email {
     padding-left: 15vw;
 }
-/* h2 {
-    color: wheat;
-} */
+
+@media screen and (max-width: 500px) {
+    h2 {
+        font-size: 6rem;
+    }
+}
