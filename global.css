@@ -22,6 +22,7 @@ header {
 #logo {
     height: 33vw;
     border-radius: 50%;
+    padding: 0rem;
 }
 
 #logo:hover {
@@ -42,24 +43,61 @@ nav a {
 
 #Bio:hover {
     color: rgb(173, 3, 3); 
-    /* transform: skew(-20deg); */
-    transform: translateX(100px);
+    transform: translateX(50px);
     opacity: 10% 50% 99%;
     transition: 0.8s;
 }
 
 #projects:hover {
     color: rgb(173, 3, 3); 
-    /* transform: skew(-20deg); */
-    transform: translateX(-100px);
+    transform: translateX(-50px);
     opacity: 10% 50% 99%;
     transition: 0.8s;
 }
 
 #blog:hover {
     color: rgb(173, 3, 3); 
-    /* transform: skew(-20deg); */
-    transform: translateX(100px);
+    transform: translateX(50px);
     opacity: 10% 50% 99%;
     transition: 0.7s;
+}
+
+#links:hover {
+    color: rgb(173, 3, 3); 
+    transform: translateX(-50px);
+    opacity: 10% 50% 99%;
+    transition: 0.7s;
+}
+
+
+h1, h5, p {
+    color: #6a6b6b;
+    font-family: Lato, sans-serif;
+    text-align: center;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 4%;
+
+}
+
+footer a {
+    left: 1.5rem;
+    background-color: rgba(169, 8, 8, 0.717);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+footer p {
+    color:#b42222
+}
+
+footer a:hover {
+    box-shadow: 0px 0px 50px 30px #023835;
 }
