@@ -1,8 +1,10 @@
 @import url(global.css);
 
-#books-banner {
+/* flower image and container */
+#flower-banner {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     height: 40vw;
     background: rgb(173, 3, 3);
@@ -16,10 +18,10 @@
     border-radius: 5%;
 }
 
-#books-banner h1 {
+/* flower container text styling */
+#flower-banner h1 {
     font: lato;
     font-size: 2.5rem;
-    /* font-weight: 510; */
     color:  rgba(169, 8, 8, 1111);
     text-decoration-line: underline;
     text-size-adjust: 700;
@@ -34,17 +36,16 @@ section {
     background: white;
 }
 
+/* content box container */
 main {
     display: flex;
-    /* justify-content: space-around; */
-    /* align-items: center; */
     height: 40vw;
     background: rgb(0, 0, 0);
     border-radius: 5px;
     padding: 5vw;
-    /* margin:5vw */
 }
 
+/* content boxes */
 section {
     display: inline;
     justify-content: space-around;
@@ -60,12 +61,14 @@ section {
     overflow-wrap: normal;
 }
 
+/* content text styling */
 section h1, h3, h4 {
     font-size: 2.5vw;
     color: rgb(173, 3, 3);
     
 }
 
+/* content side image container */
 aside {
     width: 30%;
     height: 100%;
@@ -74,18 +77,19 @@ aside {
     border-radius: 45%;
 }
 
+/* kookaburra image */
 #image-a {
-
     background: url(T1A2-img/tamborine-bird.jpg) no-repeat 99% center;
     background-size: cover;
 }
 
+/* uzumaki painting image */
 #image-b {
     background: url(T1A2-img/uzumaki.jpg) no-repeat center;
     background-size: cover;
 }
 
-
+/* horsey image */
 #image-c {
 background: url(T1A2-img/horsey.jpg) no-repeat center center;
 background-size: cover;

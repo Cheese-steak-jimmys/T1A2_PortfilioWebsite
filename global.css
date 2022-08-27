@@ -1,5 +1,8 @@
+/* global css page for all html */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
 
+/* html page settings */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,24 +16,39 @@ body {
     background: #000000; 
 }
 
+/* dkd logo for all html */
 header {
     display: flex; 
     justify-content: center;
-    padding: 19vw;
+    padding: 5vw;
 }
 
+/* dkd logo */
 #logo {
-    height: 33vw;
+    height: 26vw;
     border-radius: 50%;
     padding: 0rem;
 }
 
+/* dkd logo hover */
 #logo:hover {
     box-shadow: 0px 0px 500px 80px #023835;
     transition: 0.7s;
 }
 
+/* nav for all html */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin: 2px;
+    padding: 5vw;
+    padding-top: 0rem;
+}
+/* nav elements */
 nav a {
+    flex-direction: column;
     display: flex;
     justify-content: space-around;
     font-family: Lato, sans-serif;
@@ -38,46 +56,27 @@ nav a {
     color: #6a6b6b;
     text-decoration: none;
     margin: 0 0.0rem;
-    padding: 3rem;
+    padding: 5vw;
 }
 
-#Bio:hover {
-    color: rgb(173, 3, 3); 
-    transform: translateX(50px);
-    opacity: 10% 50% 99%;
-    transition: 0.8s;
+/* nav hover */
+nav a:hover {
+        color: rgb(173, 3, 3); 
+        transform: translateY(-2.5vw);
+        opacity: 10% 50% 99%;
+        transition: 0.7s;
 }
 
-#projects:hover {
-    color: rgb(173, 3, 3); 
-    transform: translateX(-50px);
-    opacity: 10% 50% 99%;
-    transition: 0.8s;
-}
-
-#blog:hover {
-    color: rgb(173, 3, 3); 
-    transform: translateX(50px);
-    opacity: 10% 50% 99%;
-    transition: 0.7s;
-}
-
-#links:hover {
-    color: rgb(173, 3, 3); 
-    transform: translateX(-50px);
-    opacity: 10% 50% 99%;
-    transition: 0.7s;
-}
-
-
+/* static text settings for all html */
 h1, h5, p {
     color: #6a6b6b;
     font-family: Lato, sans-serif;
     text-align: center;
 }
 
+/* Footer height */
 #content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
+    padding-bottom: 2.5rem;    
   }
 
 footer {
@@ -87,8 +86,8 @@ footer {
 
 }
 
+/* footer icon */
 footer a {
-    left: 1.5rem;
     background-color: rgba(169, 8, 8, 0.717);
     background-size: cover;
     border-radius: 50%;
@@ -100,4 +99,17 @@ footer p {
 
 footer a:hover {
     box-shadow: 0px 0px 50px 30px #023835;
+}
+
+/* nav flex media settings */
+@media screen and (max-width: 695px) {
+    nav {
+        flex-direction: column;
+    }
+    nav a:hover {
+        color: rgb(173, 3, 3); 
+        transform: translateX(-50px);
+        opacity: 10% 50% 99%;
+        transition: 0.7s;
+    }
 }

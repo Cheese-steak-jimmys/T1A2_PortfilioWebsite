@@ -1,8 +1,10 @@
 @import url(global.css);
 
-#books-banner {
+/* skull banner img and styling */
+#skull-banner {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     height: 55vw;
     background: rgb(173, 3, 3);
@@ -16,16 +18,17 @@
     border-radius: 5%;
 }
 
-#books-banner p {
+/* skull text decoration */
+#skull-banner p {
     font: lato;
-    font-size: 2.5rem;
-    /* font-weight: 510; */
+    font-size: 4rem;
     color:  rgba(169, 8, 8, 1111);
-    text-decoration-line: underline;
+    text-decoration-line: none;
     text-size-adjust: 700;
     text-shadow: -1px -1px px #6a6b6b;
 }
 
+/* main content container */
 main {
     display: flex;
     flex-direction: column;

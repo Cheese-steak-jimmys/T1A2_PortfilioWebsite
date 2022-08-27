@@ -4,16 +4,17 @@
     padding: 0rem;
 }
 
+/* page decoration img */
 #rose {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height:38vw;
+    height:30vw;
     background: rgb(173, 3, 3);
-    padding: 2rem;
-    margin: 38vw;
-    margin-top: 13vw;
-    margin-bottom: 13vw;
+    padding: 2.5vw;
+    margin: 40vw;
+    margin-top: 0vw;
+    margin-bottom: 5vw;
     background: url("T1A2-img/luna-clicks-red-rose.jpg") no-repeat 1% center;
     background-size: cover;
     border-radius: 00% 00% 500% 500%;
@@ -21,6 +22,43 @@
     opacity: 80%;
 }
 
+h2 {
+    color: #920000;
+    font-family: Lato, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    box-shadow: 0px 30px 30px 0px#023835;
+}
+
+/* main content container */
+main {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 28vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+    font: color white;
+}
+
+/* main content anchor elements */
+main a {
+    margin: 2.5vw;
+    text-decoration: none;
+    color: #920000;
+
+}
+
+/* github icon background */
+#github {
+    background: #b42222 no-repeat;
+    border-radius: 50%;
+}
+
+/* white and blue flower decoration page container */
 section {
     height: 20%;
     display: inline-block;
@@ -29,6 +67,7 @@ section {
     flex-direction: column;
 }
 
+/* page decoration */
 #white-flower {
     width: 60%;
     height: 40%;
@@ -42,6 +81,7 @@ section {
     box-shadow: 0px 0px 200px 10px #4e19e0d6;
 }
 
+/* page decoration */
 #blue-flower {
     width: 60%;
     height: 60%;
@@ -56,60 +96,6 @@ section {
     opacity: 80%;
 }
 
-h2 {
-    color: #920000;
-    font-family: Lato, sans-serif;
-    font-size: 4rem;
-    text-align: center;
-    box-shadow: 0px 30px 30px 0px#023835;
-}
-
-main {
-    display: flex; 
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    height: 120vw;
-    padding-top: 10vw;
-    padding-bottom: 20vw;
-    font: color white;
-    
-}
-/* main a {
-    
-    font-family: Lato, sans-serif;
-    font-size: 4rem;
-    color: #6a6b6b;
-    text-decoration: none;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-} */
-
-#twitter {
-    /* padding-left: 15vw; */
-}
-/* 
-#twitter:hover {
-    transform: scale(2.9, 2.9);
-    transition: 0.8s;
-    /* padding-right: 100vw; */
-    /* padding-left: 100vw; */
-*/
-
-#resume {
-
-}
-
-#github {
-    background: #b42222 no-repeat;
-    border-radius: 50%;
-    /* margin-left: 75vw; */
-}
-
-/* main a:hover {
-    transform: scale(2.9, 2.9);
-} */
 
 @media screen and (min-width: 800px) {
    main a{
@@ -118,9 +104,15 @@ main {
    }
 }
 
-/* @media screen {
-    body {
-        transform: scale(0.5);
+@media screen and (min-width: 300px) and (max-width: 500px){
+    main a {
+        transform: scale(0.7, 0.7);
     }
-    
-} */
+}
+
+@media screen and (max-width: 957px) {
+main {
+    height: 190vw; 
+    flex-direction: column;
+    }
+}
