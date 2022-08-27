@@ -81,7 +81,7 @@ h1, h5, p {
 
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-bottom: 4%;
 
 }
@@ -89,8 +89,9 @@ footer {
 /* footer icon */
 footer a {
     background-color: rgba(169, 8, 8, 0.717);
-    background-size: cover;
+    background-size:contain;
     border-radius: 50%;
+    padding: 0;
 }
 
 footer p {
