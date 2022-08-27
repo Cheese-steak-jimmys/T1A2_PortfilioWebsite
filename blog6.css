@@ -21,8 +21,7 @@
 /* moon text decoration */
 #moon-banner p {
     font: lato;
-    font-size: 2.5rem;
-    /* font-weight: 510; */
+    font-size: 6vw;
     color:  rgba(169, 8, 8, 1111);
     text-decoration: none;
     text-size-adjust: 700;

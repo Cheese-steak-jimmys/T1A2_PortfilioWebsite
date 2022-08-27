@@ -94,5 +94,17 @@ section {
     opacity: 80%;
     transition-duration: 0.8s;
 }
+    #logo {
+        box-shadow: 0px 0px 500px 80px rgba(169, 8, 8, 0.717);
+        
+    }
 }
+
+@media screen and (min-width: 695px) {
+    header {
+        box-shadow: 0px 0px 500px 110px  rgba(0, 0, 0, 0.717);
+    transition: 0.7s;
+    }
+}
+
     

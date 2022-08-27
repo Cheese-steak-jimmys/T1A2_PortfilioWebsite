@@ -21,7 +21,7 @@
 /* winter text decoration */
 #winter-banner p {
     font: lato;
-    font-size: 2.5rem;
+    font-size: 6vw;
     /* font-weight: 510; */
     color:  rgba(169, 8, 8, 1111);
     text-decoration-line: underline;

@@ -47,8 +47,8 @@ main {
 
 /* content boxes */
 section {
-    display: inline;
-    justify-content: space-around;
+    display: inline-block;
+    justify-content: center;
     align-items: center;
     width: 65%;
     height: 30vw;
@@ -59,17 +59,19 @@ section {
     border-radius: 5%;
     text-align: center;
     overflow-wrap: normal;
+    font-size: 3.6vw;
 }
 
 /* content text styling */
 section h1, h3, h4 {
     font-size: 2.5vw;
     color: rgb(173, 3, 3);
+    text-align: center;
 }
 
-p {
-    font-size: 2.9vw;
-}
+/* p {
+    font-size: 29%;
+} */
 
 /* content side image container */
 aside {

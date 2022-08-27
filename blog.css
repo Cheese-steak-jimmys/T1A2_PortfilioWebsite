@@ -4,7 +4,7 @@
 #books-banner {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: space-around;
     align-items: center;
     height: 25vw;
     background: rgb(173, 3, 3);
@@ -22,7 +22,7 @@
 #books-banner p {
     color: rgb(173, 3, 3);
     font: lato;
-    font-size: 3.9rem;
+    font-size: 8vw;
     color:  rgba(169, 8, 8, 1111);
     text-decoration-line: underline;
     text-size-adjust: 700;
@@ -90,4 +90,9 @@ section:hover {
         width: 50%;
         height: 89vw;
     }
+    section {
+        opacity: 60%;
+        margin-top: 15vw;
+    }
 }
+

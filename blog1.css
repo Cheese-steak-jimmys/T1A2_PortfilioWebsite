@@ -21,7 +21,7 @@
 /* window banner text decoration */
 #window-banner p {
     font: lato;
-    font-size: 4rem;
+    font-size: 11vw;
     color:  rgba(169, 8, 8, 1111);
     text-decoration: none;
 }
@@ -37,9 +37,20 @@ main {
 
 /* itunes display margin */
 iframe {
+    display: flex;
     margin: 5vw;
 }
 
 p {
     font-size: 2.5rem;
+}
+
+h1 {
+    font-size: 7vw;
+}
+
+@media screen and (min-width: 695px) {
+    p {
+       
+    }
 }

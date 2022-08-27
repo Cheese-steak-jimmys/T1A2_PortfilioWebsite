@@ -4,7 +4,7 @@
 #java-banner {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     height: 55vw;
     background: rgb(173, 3, 3);
@@ -21,10 +21,10 @@
 /* java text decoration */
 #java-banner p {
     font: lato;
-    font-size: 5rem;
+    font-size: 15vw;
     color:  rgba(169, 8, 8, 1111);
     text-decoration: none;
-    text-size-adjust: 700;
+    /* text-size-adjust: 700; */
     text-shadow: -1px -1px px #6a6b6b;
 }
 
