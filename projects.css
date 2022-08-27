@@ -19,7 +19,6 @@
 #projects-banner p {
     font: lato;
     font-size: 7.5vw;
-    /* margin: 6vw; */
     color:  rgba(169, 8, 8, 1111);
     text-decoration-line: underline;
     text-size-adjust: 700;
@@ -35,13 +34,10 @@ section {
 
 main {
     display: flex;
-    /* justify-content: space-around; */
-    /* align-items: center; */
     height: 40vw;
     background: rgb(0, 0, 0);
     border-radius: 5px;
     padding: 5vw;
-    /* margin:5vw */
 }
 
 section {
@@ -62,7 +58,11 @@ section {
 section h1, h3, h4 {
     font-size: 2.5vw;
     color: rgb(173, 3, 3);
-    
+}
+
+
+p {
+    font-size: 2.6vw;
 }
 
 aside {
